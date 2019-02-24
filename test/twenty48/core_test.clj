@@ -14,7 +14,8 @@
               (2 0 2 0)
               (0 4 4 0)))))))
 
-(deftest moving-grid-left
+
+ (deftest moving-grid-left
   (testing "rows with numbers that repeat"
     (is (= '((4 0 0 0)
              (2 4 0 0)
@@ -26,7 +27,7 @@
               (2 0 2 0)
               (0 4 4 0)))))))
 
-(deftest moving-grid-up
+ (deftest moving-grid-up
   (testing "rows with numbers that repeat"
     (is (= '((2 2 4 2)
              (0 4 4 4)
@@ -38,7 +39,7 @@
               (2 0 2 0)
               (0 4 4 0)))))))
 
-(deftest moving-grid-down
+ (deftest moving-grid-down
   (testing "rows with numbers that repeat"
     (is (= '((0 0 0 0)
              (0 0 0 0)
